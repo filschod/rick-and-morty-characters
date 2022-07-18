@@ -1,8 +1,8 @@
 import './App.css';
-import Characters from './characters/Characters';
+import CharactersView from './views/characters/components/CharactersView';
 
 const App = (): JSX.Element => {
-    return <Characters />;
+    return <CharactersView />;
 };
 
 export default App;
