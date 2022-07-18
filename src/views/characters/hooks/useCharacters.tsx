@@ -9,6 +9,7 @@ const Characters = (): any => {
     const [selectedStatus, setSelectedStatus] = useState('');
     const { data, loading, fetchMore } = useQuery(CharactersQuery.GET_CHARACTERS, {
         variables: { page: 1, searchWord, selectedStatus },
+        notifyOnNetworkStatusChange: true,
     });
 
     const loadMoreCharacters = (): void => {

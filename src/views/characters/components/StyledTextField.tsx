@@ -7,9 +7,6 @@ const StyledTextfield = styled(TextField)({
     '& .MuiInputLabel-root': {
         color: '#b3e028',
     },
-    '& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline': {
-        borderColor: '#b3e028',
-    },
     '&:hover .MuiOutlinedInput-input': {
         color: '#12b0c9',
     },

@@ -7,9 +7,6 @@ const StyledFormControl = styled(FormControl)({
     '& .MuiInputLabel-root': {
         color: '#b3e028',
     },
-    '& .MuiOutlinedInput-root': {
-        borderColor: '#b3e028',
-    },
     '& MuiSelect-select': {
         borderColor: '#b3e028',
     },
@@ -30,6 +27,9 @@ const StyledFormControl = styled(FormControl)({
     },
     '& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline': {
         borderColor: '#b3e028',
+    },
+    '& .MuiSvgIcon-root': {
+        fill: '#b3e028',
     },
 });
 export default StyledFormControl;
